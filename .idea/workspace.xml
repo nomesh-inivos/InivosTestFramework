@@ -5,14 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8f76695-c5c0-48b8-bfb2-b642977f3cec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/DriverFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/WebBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/ConfigurationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inivos/config/ConfigurationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inivos/config/FrameworkConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/converters/StringToBrowserTypeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inivos/config/converters/StringToBrowserTypeConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/enums/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inivos/enums/BrowserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +24,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="development" />
+                    <option name="lastUsedInstant" value="1663666139" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1663666138" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
