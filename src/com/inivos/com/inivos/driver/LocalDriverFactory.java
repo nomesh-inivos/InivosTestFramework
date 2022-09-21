@@ -7,7 +7,9 @@ import com.inivos.config.ConfigurationFactory;
 import com.inivos.enums.BrowserType;
 import org.openqa.selenium.WebDriver;
 
-
+/**
+ * This class is specifically used to work on local browser setup like Firefox and Chrome.
+ */
 public final class LocalDriverFactory {
     private LocalDriverFactory() {
     }
