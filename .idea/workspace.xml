@@ -5,14 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8f76695-c5c0-48b8-bfb2-b642977f3cec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/RemoteDriverFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/inivos/config/converters/StringToBrowserRemoteModeTypeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/inivos/config/converters/StringToBrowserRunModeTypeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/inivos/enums/BrowserRemoteModeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/inivos/enums/BrowserRunModeType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/BrowserStackFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/SeleniumGridFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/SelenoidGridFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/BrowserStackChromeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/BrowserStackFirefoxManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/SeleniumGridChromeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/SeleniumGridFirefoxManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/SelenoidGridChromeManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/config/BrowserStackConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/config/BrowserStackConfigfactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/inivos/config/converters/StringToURLConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/browser-stack.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/LocalDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/LocalDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/RemoteDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/RemoteDriverFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/inivos/config/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/inivos/config/FrameworkConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +34,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -80,6 +91,11 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.inivos.com.inivos.driver.manager" />
+      <recent name="com.inivos.com.inivos.driver" />
+      <recent name="com.inivos.config.converters" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/inivos/config" />
       <recent name="$PROJECT_DIR$/src/com/inivos/converters" />

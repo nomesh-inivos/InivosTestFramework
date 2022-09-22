@@ -20,11 +20,11 @@ public final class LocalDriverFactory {
      * @return
      * @throws DriverAgentNotFoundException
      */
-    public static WebDriver getDriver() throws DriverAgentNotFoundException {
+    public static WebDriver getDriver(BrowserType browserType) throws DriverAgentNotFoundException {
         WebDriver driver;
-        if (isBrowserChrome()) {
+        if (isBrowserChrome(browserType)) {
             driver = ChromeManager.getChromeDriver();
-        } else if (isBrowserFireFox()) {
+        } else if (isBrowserFireFox(browserType)) {
             driver = FireFoxManager.getFireFoxDriver();
         } else {
             /** setting up default Agent as CHROME **/
@@ -34,12 +34,12 @@ public final class LocalDriverFactory {
         return driver;
     }
 
-    private static boolean isBrowserChrome() {
-        return ConfigurationFactory.getConfig().browser().equals(BrowserType.CHROME);
+    private static boolean isBrowserChrome(BrowserType browserType) {
+        return browserType == BrowserType.CHROME;
     }
 
-    private static boolean isBrowserFireFox() {
-        return ConfigurationFactory.getConfig().browser().equals(BrowserType.FIREFOX);
+    private static boolean isBrowserFireFox(BrowserType browserType) {
+        return browserType == BrowserType.FIREFOX;
     }
 
 }
