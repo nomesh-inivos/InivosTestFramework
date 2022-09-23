@@ -1,4 +1,4 @@
-package com.inivos.com.inivos.exceptions;
+package com.inivos.exceptions;
 
 public class DriverAgentNotFoundException extends Exception {
     /**

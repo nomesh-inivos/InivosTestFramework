@@ -1,7 +1,7 @@
-package com.inivos.com.inivos.driver;
+package com.inivos.driver;
 
-import com.inivos.com.inivos.driver.factory.web.local.LocalDriverFactory;
-import com.inivos.com.inivos.exceptions.DriverAgentNotFoundException;
+import com.inivos.driver.factory.web.local.LocalDriverFactory;
+import com.inivos.exceptions.DriverAgentNotFoundException;
 import com.inivos.config.ConfigurationFactory;
 import org.openqa.selenium.WebDriver;
 

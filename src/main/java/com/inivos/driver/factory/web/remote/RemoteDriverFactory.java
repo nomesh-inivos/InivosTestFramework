@@ -1,4 +1,4 @@
-package com.inivos.com.inivos.driver.factory.web.remote;
+package com.inivos.driver.factory.web.remote;
 
 import com.inivos.enums.BrowserRemoteModeType;
 import com.inivos.enums.BrowserType;
