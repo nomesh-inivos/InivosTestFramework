@@ -1,20 +1,17 @@
-package com.inivos.com.inivos.driver;
+package com.inivos.driver.factory.web.remote;
 
-import com.inivos.com.inivos.driver.manager.SeleniumGridChromeManager;
-import com.inivos.com.inivos.driver.manager.SeleniumGridFirefoxManager;
+import com.inivos.driver.manager.web.SeleniumGridFirefoxManager;
+import com.inivos.driver.manager.web.SelenoidGridChromeManager;
 import com.inivos.enums.BrowserType;
-import org.apache.groovy.parser.antlr4.GroovyParser;
 import org.openqa.selenium.WebDriver;
 
 import java.net.MalformedURLException;
 
-public final class SeleniumGridFactory {
-    private SeleniumGridFactory(){}
-
+public class SelenoidGridFactory {
     public static WebDriver getDriver(BrowserType browserType) throws MalformedURLException {
         WebDriver driver = null;
         if(browserType == BrowserType.CHROME) {
-           driver= SeleniumGridChromeManager.getDriver();
+            driver= SelenoidGridChromeManager.getDriver();
         }else if (browserType == BrowserType.FIREFOX) {
             driver = SeleniumGridFirefoxManager.getDriver();
         }

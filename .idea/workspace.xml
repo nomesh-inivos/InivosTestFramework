@@ -5,37 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c964f8f-6ba3-4249-acff-bb149d7b641d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/BrowserStackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/BrowserStackFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/LocalDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/LocalDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/RemoteDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/RemoteDriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/SeleniumGridFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/SeleniumGridFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/SelenoidGridFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/SelenoidGridFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/BrowserStackChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/BrowserStackChromeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/BrowserStackFirefoxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/BrowserStackFirefoxManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/ChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/ChromeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/FireFoxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/FireFoxManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/SeleniumGridChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/SeleniumGridChromeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/SeleniumGridFirefoxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/SeleniumGridFirefoxManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/driver/manager/SelenoidGridChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/SelenoidGridChromeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/com/inivos/exceptions/DriverAgentNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/exceptions/DriverAgentNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/BrowserStackConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/config/BrowserStackConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/BrowserStackConfigfactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/config/BrowserStackConfigfactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/ConfigurationFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/config/ConfigurationFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/config/FrameworkConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/converters/StringToBrowserRemoteModeTypeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/config/converters/StringToBrowserRemoteModeTypeConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/converters/StringToBrowserRunModeTypeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/config/converters/StringToBrowserRunModeTypeConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/converters/StringToBrowserTypeConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/config/converters/StringToBrowserTypeConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/config/converters/StringToURLConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/config/converters/StringToURLConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/enums/BrowserRemoteModeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/enums/BrowserRemoteModeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/enums/BrowserRunModeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/enums/BrowserRunModeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/inivos/enums/BrowserType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/enums/BrowserType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/BrowserStackFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/factory/web/remote/BrowserStackFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/LocalDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/factory/web/local/LocalDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/RemoteDriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/factory/web/remote/RemoteDriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/SeleniumGridFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/factory/web/remote/SeleniumGridFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/SelenoidGridFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/factory/web/remote/SelenoidGridFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/BrowserStackChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/web/BrowserStackChromeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/BrowserStackFirefoxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/web/BrowserStackFirefoxManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/ChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/web/ChromeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/FireFoxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/web/FireFoxManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/SeleniumGridChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/web/SeleniumGridChromeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/SeleniumGridFirefoxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/web/SeleniumGridFirefoxManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/SelenoidGridChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/com/inivos/driver/manager/web/SelenoidGridChromeManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +27,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="nomesh-inivos" />
+        <option name="repository" value="InivosTestFramework" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

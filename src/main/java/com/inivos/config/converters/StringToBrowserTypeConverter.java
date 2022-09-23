@@ -6,8 +6,6 @@ import org.aeonbits.owner.Converter;
 import java.lang.reflect.Method;
 import java.util.Map;
 
-import static java.util.Map.*;
-
 public class StringToBrowserTypeConverter implements Converter<BrowserType> {
 
 

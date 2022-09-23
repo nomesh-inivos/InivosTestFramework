@@ -1,14 +1,11 @@
-package com.inivos.com.inivos.driver.manager;
+package com.inivos.driver.manager.web;
 
 import com.inivos.config.ConfigurationFactory;
-import lombok.SneakyThrows;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
-import java.net.URL;
 
 import com.inivos.enums.BrowserType;
 

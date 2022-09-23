@@ -1,15 +1,9 @@
-package com.inivos.com.inivos.driver;
+package com.inivos.driver.factory.web.remote;
 
-import com.inivos.com.inivos.driver.manager.BrowserStackChromeManager;
-import com.inivos.com.inivos.driver.manager.BrowserStackFirefoxManager;
-import com.inivos.com.inivos.driver.manager.SeleniumGridChromeManager;
-import com.inivos.com.inivos.driver.manager.SeleniumGridFirefoxManager;
-import com.inivos.config.BrowserStackConfigfactory;
-import com.inivos.config.ConfigurationFactory;
+import com.inivos.driver.manager.web.BrowserStackChromeManager;
+import com.inivos.driver.manager.web.BrowserStackFirefoxManager;
 import com.inivos.enums.BrowserType;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.remote.DesiredCapabilities;
-import org.openqa.selenium.remote.RemoteWebDriver;
 
 import java.net.MalformedURLException;
 

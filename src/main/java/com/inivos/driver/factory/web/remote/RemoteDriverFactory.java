@@ -1,8 +1,5 @@
-package com.inivos.com.inivos.driver;
+package com.inivos.driver.factory.web.remote;
 
-import com.inivos.com.inivos.driver.manager.SeleniumGridChromeManager;
-import com.inivos.com.inivos.driver.manager.SeleniumGridFirefoxManager;
-import com.inivos.config.ConfigurationFactory;
 import com.inivos.enums.BrowserRemoteModeType;
 import com.inivos.enums.BrowserType;
 import org.openqa.selenium.WebDriver;
