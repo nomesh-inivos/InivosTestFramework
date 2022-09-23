@@ -1,9 +1,8 @@
-package com.inivos.com.inivos.driver;
+package com.inivos.com.inivos.driver.factory.web.remote;
 
-import com.inivos.com.inivos.driver.manager.SeleniumGridChromeManager;
-import com.inivos.com.inivos.driver.manager.SeleniumGridFirefoxManager;
+import com.inivos.com.inivos.driver.manager.web.SeleniumGridChromeManager;
+import com.inivos.com.inivos.driver.manager.web.SeleniumGridFirefoxManager;
 import com.inivos.enums.BrowserType;
-import org.apache.groovy.parser.antlr4.GroovyParser;
 import org.openqa.selenium.WebDriver;
 
 import java.net.MalformedURLException;

@@ -1,9 +1,8 @@
-package com.inivos.com.inivos.driver;
+package com.inivos.com.inivos.driver.factory.web.local;
 
-import com.inivos.com.inivos.driver.manager.ChromeManager;
-import com.inivos.com.inivos.driver.manager.FireFoxManager;
+import com.inivos.com.inivos.driver.manager.web.ChromeManager;
+import com.inivos.com.inivos.driver.manager.web.FireFoxManager;
 import com.inivos.com.inivos.exceptions.DriverAgentNotFoundException;
-import com.inivos.config.ConfigurationFactory;
 import com.inivos.enums.BrowserType;
 import org.openqa.selenium.WebDriver;
 

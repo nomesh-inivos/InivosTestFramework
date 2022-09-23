@@ -1,4 +1,4 @@
-package com.inivos.com.inivos.driver.manager;
+package com.inivos.com.inivos.driver.manager.web;
 
 import com.inivos.config.BrowserStackConfigfactory;
 import com.inivos.enums.BrowserType;
