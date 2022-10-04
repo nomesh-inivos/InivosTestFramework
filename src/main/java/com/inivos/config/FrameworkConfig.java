@@ -39,4 +39,5 @@ public interface FrameworkConfig extends Config {
     @Key("browserStackUrl")
     @ConverterClass(StringToURLConverter.class)
     URL browserStackUrl();
+
 }
