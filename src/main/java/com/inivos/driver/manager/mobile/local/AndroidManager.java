@@ -19,22 +19,28 @@ public final class AndroidManager {
 
     public static WebDriver getDriver(){
         DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-        desiredCapabilities.setCapability("appium:platformName", "Android");
+        desiredCapabilities.setCapability("platformName", "Android");
         desiredCapabilities.setCapability("appium:platformVersion", 10);
-        desiredCapabilities.setCapability("appium:deviceName", "emulator-5554");
-        desiredCapabilities.setCapability("appium:automationName", "Appium");
-        desiredCapabilities.setCapability("browserName", "Android");
-       // capabilities.setCapability(MobileCapabilityType.APP, System.getProperty("user.dir")+"/android-app.apk");
-//        desiredCapabilities.setCapability("appPackage", "com.android.contacts");
-//        desiredCapabilities.setCapability("appActivity", "activities.DialtactsActivity");
+        desiredCapabilities.setCapability("appium:deviceName", "emulator-5554"); //emulator-5554
+        desiredCapabilities.setCapability("appium:automationName", "UiAutomator2");
+        desiredCapabilities.setCapability("appium:app-package", "com.google.android.apps.chrome.IntentDispatcher");
+        desiredCapabilities.setCapability("appium:app-activity", "android.intent.action/.Main");
+        desiredCapabilities.setCapability("browserName", "Chrome");
+        desiredCapabilities.setCapability("showChromedriverLog", true);
 
-        desiredCapabilities.setCapability(MobileCapabilityType.APP, "~/Downloads/Findlocal_debug.apk");
+        //desiredCapabilities.setCapability("appium:app", "~/Downloads/Findlocal_debug.apk");
+
+        desiredCapabilities.setCapability("appium:newCommandTimeout", 10000);
+
 
         try {
-//            return new RemoteWebDriver( new URL(AndroidConfigFactory.getConfig().androidUrl().toString()),desiredCapabilities);
+            URL remoteUrl = new URL("http://127.0.0.1/wd/hub");
 
-              return new RemoteWebDriver( new URL("http", "127.0.0.1", 4723, "/wd/hub"), desiredCapabilities);
+            //return new RemoteWebDriver( new URL(AndroidConfigFactory.getConfig().androidUrl().toString()),desiredCapabilities);
+            return new RemoteWebDriver( new URL(remoteUrl.getProtocol(), remoteUrl.getHost(), remoteUrl.getPort(), "/wd/hub/"), desiredCapabilities);
+
         } catch (MalformedURLException e) {
+            System.out.println(e.getMessage());
             throw new RuntimeException(e);
         }
     }

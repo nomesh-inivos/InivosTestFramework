@@ -1,13 +1,14 @@
 package com.inivos.driver;
 
-import com.inivos.driver.factory.mobile.local.LocalMobileDriverFactory;
-import com.inivos.driver.factory.web.local.LocalDriverFactory;
+import com.inivos.config.ConfigurationFactory;
+import com.inivos.driver.entity.DriverData;
+import com.inivos.driver.factory.DriverFactory;
 import com.inivos.enums.MobilePlatformType;
 import com.inivos.exceptions.DriverAgentNotFoundException;
-import com.inivos.config.ConfigurationFactory;
 import org.openqa.selenium.WebDriver;
 
 import java.net.MalformedURLException;
+
 
 public final class Driver {
 
@@ -19,17 +20,25 @@ public final class Driver {
       *     local web, remote web,
       *     local mobile, remote mobile
      */
-    public static void initDriver() {
-//        WebDriver driver = LocalDriverFactory.getDriver(ConfigurationFactory.getConfig().browser());
-//        driver.get("htts://google.co.uk");
-        //driver.quit();
+    public static void initDriverForWeb() throws MalformedURLException, DriverAgentNotFoundException {
 
-        WebDriver local_mobile_driver = LocalMobileDriverFactory.getDriver(MobilePlatformType.ANDROID);
-        local_mobile_driver.get("http://www.yahoo.com");
-
+        DriverData driverData = DriverData.builder()
+                .browserType(ConfigurationFactory.getConfig().browser())
+                .browserRemoteModeType(ConfigurationFactory.getConfig().browserRemoteMode())
+                .runModeType(ConfigurationFactory.getConfig().browserRunMode())
+                .build();
+         WebDriver driver = DriverFactory.getDriverForMobile(driverData);
+         driver.quit();
+    }
+    public static void initDriverForMobile() throws MalformedURLException, DriverAgentNotFoundException {
+        DriverData driverData = DriverData.builder()
+                .mobilePlatformType(MobilePlatformType.ANDROID)
+                .mobileRemoteModeType(ConfigurationFactory.getConfig().mobileRemoteMode())
+                .build();
+        WebDriver driver = DriverFactory.getDriverForMobile(driverData);
+        driver.quit();
 
     }
-
     /**
      * closing the initialized Web Agent Driver: ex: CHROME, FIREFOX
      */

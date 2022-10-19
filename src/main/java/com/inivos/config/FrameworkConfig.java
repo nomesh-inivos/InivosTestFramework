@@ -1,11 +1,9 @@
 package com.inivos.config;
 
-import com.inivos.config.converters.StringToBrowserRemoteModeTypeConverter;
-import com.inivos.config.converters.StringToBrowserRunModeTypeConverter;
-import com.inivos.config.converters.StringToBrowserTypeConverter;
-import com.inivos.config.converters.StringToURLConverter;
+import com.inivos.config.converters.*;
 import com.inivos.enums.BrowserRemoteModeType;
-import com.inivos.enums.BrowserRunModeType;
+import com.inivos.enums.MobileRemoteModeType;
+import com.inivos.enums.RunModeType;
 import com.inivos.enums.BrowserType;
 import org.aeonbits.owner.Config;
 
@@ -26,10 +24,19 @@ public interface FrameworkConfig extends Config {
     BrowserType browser();
     @Key("browserRunMode")
     @ConverterClass(StringToBrowserRunModeTypeConverter.class)
-    BrowserRunModeType browserRunMode();
+    RunModeType browserRunMode();
     @Key("browserRemoteMode")
     @ConverterClass(StringToBrowserRemoteModeTypeConverter.class)
     BrowserRemoteModeType browserRemoteMode();
+
+    @Key("runModeMobile")
+    @ConverterClass(StringToRunModeBrowserTypeConverter.class)
+    RunModeType mobileRunMode();
+
+    @Key("mobileRemoteMode")
+    @ConverterClass(StringToMobileRemoteModeTypeConverter.class)
+    MobileRemoteModeType mobileRemoteMode();
+
     @Key("seleniumGridUrl")
     @ConverterClass(StringToURLConverter.class)
     URL seleniumGridUrl();

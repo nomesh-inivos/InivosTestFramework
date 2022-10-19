@@ -1,6 +1,6 @@
 package com.inivos.enums;
 
-public enum BrowserRunModeType {
+public enum RunModeType {
 
     LOCAL,
     REMOTE

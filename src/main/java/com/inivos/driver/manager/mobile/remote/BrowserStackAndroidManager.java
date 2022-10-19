@@ -1,7 +1,6 @@
 package com.inivos.driver.manager.mobile.remote;
 
 import com.inivos.config.BrowserStackConfigfactory;
-import com.inivos.enums.MobileRemoteMethodType;
 import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;

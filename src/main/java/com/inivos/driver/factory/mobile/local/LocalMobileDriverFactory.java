@@ -27,7 +27,7 @@ public final class LocalMobileDriverFactory {
         WebDriver driver = null;
         if (isMobileAndroid(mobilePlatformType)) {
             driver = AndroidManager.getDriver();
-        } else if(isMobileIOS(mobilePlatformType)) {
+        } else if (isMobileIOS(mobilePlatformType)) {
             try {
                 driver = IosManager.getDriver();
             } catch (MalformedURLException e) {
