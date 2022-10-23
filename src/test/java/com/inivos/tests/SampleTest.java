@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
             desiredCapabilities.setCapability("appium:platformVersion", 10);
             desiredCapabilities.setCapability("appium:deviceName", "emulator-5554");
             desiredCapabilities.setCapability("appium:automationName", "Appium");
-            desiredCapabilities.setCapability("appium:app", "~/Downloads/com.android.chrome_2022-09-30.apk");
+            desiredCapabilities.setCapability("appium:app", "~/Downloads/chromedriver");
 //            desiredCapabilities.setCapability("appium:app", "~/Downloads/Findlocal_debug.apk");
             desiredCapabilities.setCapability("appium:app-package", "com.google.android.apps.chrome");
             desiredCapabilities.setCapability("appium:app-activity", "com.android.chrome/.Main");

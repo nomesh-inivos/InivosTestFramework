@@ -1,7 +1,8 @@
 package com.inivos.driver;
 
 import com.inivos.config.ConfigurationFactory;
-import com.inivos.driver.entity.DriverData;
+import com.inivos.driver.entity.MobileDriverData;
+import com.inivos.driver.entity.WebDriverData;
 import com.inivos.driver.factory.DriverFactory;
 import com.inivos.enums.MobilePlatformType;
 import com.inivos.exceptions.DriverAgentNotFoundException;
@@ -22,23 +23,24 @@ public final class Driver {
      */
     public static void initDriverForWeb() throws MalformedURLException, DriverAgentNotFoundException {
 
-        DriverData driverData = DriverData.builder()
+        WebDriverData driverData = WebDriverData.builder()
                 .browserType(ConfigurationFactory.getConfig().browser())
                 .browserRemoteModeType(ConfigurationFactory.getConfig().browserRemoteMode())
                 .runModeType(ConfigurationFactory.getConfig().browserRunMode())
                 .build();
-         WebDriver driver = DriverFactory.getDriverForMobile(driverData);
+         WebDriver driver = DriverFactory.getDriverForWeb(driverData);
          driver.quit();
     }
     public static void initDriverForMobile() throws MalformedURLException, DriverAgentNotFoundException {
-        DriverData driverData = DriverData.builder()
+        MobileDriverData driverData = MobileDriverData.builder()
                 .mobilePlatformType(MobilePlatformType.ANDROID)
                 .mobileRemoteModeType(ConfigurationFactory.getConfig().mobileRemoteMode())
+                .runModeType(ConfigurationFactory.getConfig().mobileRunMode())
                 .build();
         WebDriver driver = DriverFactory.getDriverForMobile(driverData);
         driver.quit();
-
     }
+
     /**
      * closing the initialized Web Agent Driver: ex: CHROME, FIREFOX
      */
