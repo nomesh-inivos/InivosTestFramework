@@ -1,9 +1,7 @@
 package com.inivos.driver;
 
 import com.inivos.driver.entity.MobileDriverData;
-import com.inivos.driver.entity.WebDriverData;
 import com.inivos.driver.factory.mobile.local.LocalMobileDriverFactory;
-import com.inivos.driver.factory.web.local.LocalDriverFactory;
 import com.inivos.exceptions.DriverAgentNotFoundException;
 import org.openqa.selenium.WebDriver;
 

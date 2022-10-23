@@ -5,12 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c964f8f-6ba3-4249-acff-bb149d7b641d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/enums/PlatformType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/mobile/AndroidTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/mobile/IosTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/mobile/base/MobileBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/GoogleTitleTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/base/WebBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/MobileDriverData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/MobileDriverData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/WebDriverData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/WebDriverData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/LocalMobileDriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/LocalMobileDriverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/RemoteMobileDriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/RemoteMobileDriverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/TestBrowserStackChromeManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/WebBase.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +29,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="TestNG Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -99,7 +108,7 @@
       <recent name="com.inivos.driver.factory.mobile.local" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GoogleTitleTest.testLogin">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -170,6 +179,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoogleTitleTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="InivosTestFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inivos.tests.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inivos.tests.web" />
+      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.GoogleTitleTest" />
+      <option name="METHOD_NAME" value="testLogin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DemoTest" type="TestNG" singleton="false" temporary="true" nameIsGenerated="true">
       <module name="InivosTestFramework" />
       <shortenClasspath name="NONE" />
@@ -197,17 +222,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DemoTest.testCalculatorPlus" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="GoogleTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InivosTestFramework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.inivos.tests.*" />
+          <option name="PATTERN" value="com.inivos.tests.web.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.inivos.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.DemoTest" />
-      <option name="METHOD_NAME" value="testCalculatorPlus" />
+      <option name="PACKAGE_NAME" value="com.inivos.tests.web" />
+      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.GoogleTitleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GoogleTitleTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InivosTestFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inivos.tests.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inivos.tests.web" />
+      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.GoogleTitleTest" />
+      <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -235,15 +277,19 @@
     </configuration>
     <list>
       <item itemvalue="Android App.app" />
+      <item itemvalue="JUnit.GoogleTitleTest.testLogin" />
+      <item itemvalue="TestNG.GoogleTitleTest" />
+      <item itemvalue="TestNG.GoogleTitleTest.testLogin" />
       <item itemvalue="TestNG.TestBrowserStackChromeManager.testChrome" />
       <item itemvalue="TestNG.DemoTest" />
-      <item itemvalue="TestNG.DemoTest.testCalculatorPlus" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GoogleTitleTest.testLogin" />
+        <item itemvalue="TestNG.GoogleTitleTest" />
+        <item itemvalue="TestNG.GoogleTitleTest.testLogin" />
         <item itemvalue="TestNG.TestBrowserStackChromeManager.testChrome" />
         <item itemvalue="TestNG.DemoTest" />
-        <item itemvalue="TestNG.DemoTest.testCalculatorPlus" />
       </list>
     </recent_temporary>
   </component>
@@ -279,16 +325,6 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/mobile/local/AndroidManager.java</url>
           <line>39</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/mobile/remote/RemoteMobileDriverFactory.java</url>

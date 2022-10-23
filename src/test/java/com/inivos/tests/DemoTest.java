@@ -1,5 +1,6 @@
 package com.inivos.tests;
 
+import com.inivos.tests.web.base.WebBase;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.android.AndroidElement;
@@ -31,10 +32,6 @@ public class DemoTest extends WebBase {
 
 
         //  Common set of capabilities
-
-//        desiredCapabilities.setCapability("appium:app-package", "com.google.android.apps.chrome");
-//        desiredCapabilities.setCapability("appium:app-activity", "com.android.chrome/.Main");
-
         desiredCapabilities.setCapability("appium:app-package", "com.google.android.apps.chrome.IntentDispatcher");
         desiredCapabilities.setCapability("appium:app-activity", "android.intent.action/.Main");
         desiredCapabilities.setCapability("browserName", "Chrome");
@@ -54,7 +51,7 @@ public class DemoTest extends WebBase {
 
     }
 
-    @Test
+   // @Test
     public void testCalculatorPlus() throws InterruptedException {
 
         Thread.sleep(1000);
@@ -79,8 +76,6 @@ public class DemoTest extends WebBase {
             el6.click();
 
             Assert.assertEquals(driver.findElementById("com.android.calculator2:id/result").getText(), 64);
-
-
 
         }
     }
