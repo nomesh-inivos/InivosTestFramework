@@ -5,37 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7c964f8f-6ba3-4249-acff-bb149d7b641d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/IMobileDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/IWebDriver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/LocalMobileDriverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/LocalWebDriverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/RemoteMobileDriverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/RemoteWebDriverImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/MobileDriverData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/WebDriverData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/DriverTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/factory/DriverFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/factory/mobile/local/LocalMobileDriverFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/factory/mobile/remote/BrowserStackMobileFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/factory/mobile/remote/RemoteMobileDriverFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/factory/web/remote/BrowserStackFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/factory/web/remote/RemoteDriverFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/mobile/local/AndroidManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/mobile/local/IosManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/mobile/remote/BrowserStackAndroidManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/mobile/remote/BrowserStackIOSManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/web/BrowserStackChromeManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/web/BrowserStackFirefoxManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/web/ChromeManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/web/FireFoxManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/web/SeleniumGridChromeManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/web/SeleniumGridFirefoxManagerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/driver/manager/web/SelenoidGridChromeManagerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/DriverData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/MobileDriverData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/MobileDriverData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/WebDriverData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/WebDriverData.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/DriverFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/SampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +287,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java</url>
-          <line>30</line>
+          <line>24</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
