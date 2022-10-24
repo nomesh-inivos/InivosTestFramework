@@ -1,51 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7c964f8f-6ba3-4249-acff-bb149d7b641d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/enums/PlatformType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/mobile/AndroidTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/mobile/IosTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/mobile/base/MobileBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/GoogleTitleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/base/WebBase.java" afterDir="false" />
+    <list default="true" id="d50cd199-afa4-4c9d-b028-6c8ec48f261d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/staging-config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/config/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/config/FrameworkConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/LocalMobileDriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/LocalMobileDriverImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/RemoteMobileDriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/RemoteMobileDriverImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/TestBrowserStackChromeManager.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/WebBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/GoogleTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/GoogleTitleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="TestNG Test Class" />
-        <option value="Interface" />
-        <option value="Class" />
-        <option value="Enum" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="recentNewPullRequestHead">
-      <RepoCoordinatesHolder>
-        <option name="owner" value="nomesh-inivos" />
-        <option name="repository" value="InivosTestFramework" />
-      </RepoCoordinatesHolder>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -56,125 +31,44 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="excludeTargetFolder" value="false" />
+        <option name="jdkForImporter" value="11" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="2F7VoeEEkxtlb2NAn4sM5ejyzHD" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2GY81Q6wqaLqsHxANTheytQuN50" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "OverrideImplement.generate.javadoc": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable": "ALL",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "TestNG",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG": "",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers": "true",
-    "project.structure.last.edited": "Global Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.36206895",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
+    "settings.editor.splitter.proportion": "0.23421589"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.inivos.config.converters" />
-      <recent name="com.inivos.driver.manager.mobile.remote" />
-      <recent name="com.inivos.config" />
-      <recent name="com.inivos.driver.manager.mobile.local" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.inivos.driver" />
-      <recent name="com.inivos.driver.manager.web" />
-      <recent name="com.inivos.driver.manager.mobile.remote" />
-      <recent name="com.inivos.driver.manager.mobile.local" />
-      <recent name="com.inivos.driver.factory" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.inivos.driver" />
-      <recent name="com.inivos.driver.manager.mobile.remote" />
-      <recent name="com.inivos.driver.factory.web.remote" />
-      <recent name="com.inivos.driver.factory.mobile.local" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/inivos/util/drivers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GoogleTitleTest.testLogin">
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="true" />
-      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
-      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <Java />
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-      </Profilers>
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
-      <option name="DEPLOY" value="true" />
-      <option name="DEPLOY_APK_FROM_BUNDLE" value="true" />
-      <option name="DEPLOY_AS_INSTANT" value="false" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ALL_USERS" value="true" />
-      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
-      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="launch_deep_link" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="DEBUGGER_TYPE" value="Java" />
-      <Java />
-      <Profilers>
-        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
-        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
-        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
-        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
-      </Profilers>
-      <option name="DEEP_LINK" value="http://www.google.com" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
-      <option name="SKIP_ACTIVITY_VALIDATION" value="true" />
-      <method v="2">
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+  <component name="RunManager" selected="TestNG.GoogleTitleTest.testLogin">
+    <configuration name="GoogleTitleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="InivosTestFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inivos.tests.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inivos.tests.web" />
+      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.GoogleTitleTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,50 +85,6 @@
       <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.GoogleTitleTest" />
       <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DemoTest" type="TestNG" singleton="false" temporary="true" nameIsGenerated="true">
-      <module name="InivosTestFramework" />
-      <shortenClasspath name="NONE" />
-      <useClassPathOnly />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.inivos.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="com.inivos.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.DemoTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GoogleTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InivosTestFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.inivos.tests.web.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.inivos.tests.web" />
-      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.GoogleTitleTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -257,50 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBrowserStackChromeManager.testChrome" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="InivosTestFramework" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.inivos.tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.inivos.tests" />
-      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.TestBrowserStackChromeManager" />
-      <option name="METHOD_NAME" value="testChrome" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Android App.app" />
-      <item itemvalue="JUnit.GoogleTitleTest.testLogin" />
-      <item itemvalue="TestNG.GoogleTitleTest" />
-      <item itemvalue="TestNG.GoogleTitleTest.testLogin" />
-      <item itemvalue="TestNG.TestBrowserStackChromeManager.testChrome" />
-      <item itemvalue="TestNG.DemoTest" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GoogleTitleTest.testLogin" />
-        <item itemvalue="TestNG.GoogleTitleTest" />
         <item itemvalue="TestNG.GoogleTitleTest.testLogin" />
-        <item itemvalue="TestNG.TestBrowserStackChromeManager.testChrome" />
-        <item itemvalue="TestNG.DemoTest" />
+        <item itemvalue="JUnit.GoogleTitleTest.testLogin" />
+        <item itemvalue="JUnit.GoogleTitleTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="7c964f8f-6ba3-4249-acff-bb149d7b641d" name="Changes" comment="" />
-      <created>1663843287719</created>
+      <changelist id="d50cd199-afa4-4c9d-b028-6c8ec48f261d" name="Changes" comment="" />
+      <created>1666553940776</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1663843287719</updated>
+      <updated>1666553940776</updated>
     </task>
     <servers />
   </component>
@@ -315,33 +137,36 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/mobile/local/AndroidManager.java</url>
-          <line>39</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java</url>
+          <line>34</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/mobile/remote/RemoteMobileDriverFactory.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/DriverFactory.java" line="44">
+      <configuration name="JUnit">
+        <watch expression="DriverManager" />
+      </configuration>
+      <configuration name="TestNG">
+        <watch expression="DriverManager" />
         <watch expression="driverData" />
-      </inline-watch>
+        <watch expression="driver" />
+        <watch expression="ConfigurationFactory.getConfig().browserRunMode()" />
+      </configuration>
     </watches-manager>
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/InivosTestFramework$DemoTest.ic" NAME="DemoTest Coverage Results" MODIFIED="1664365237116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>com.inivos.tests.*</FILTER>
-    </SUITE>
   </component>
 </project>

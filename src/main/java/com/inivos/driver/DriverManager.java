@@ -10,6 +10,7 @@ import java.util.Map;
 
 import static com.inivos.enums.PlatformType.MOBILE;
 import static com.inivos.enums.PlatformType.WEB;
+import static java.lang.ThreadLocal.withInitial;
 
 /**
  * This class is used to make the Driver Thread-Safe/ Synchronize by calling THREAD_LOCAL.
@@ -21,36 +22,36 @@ import static com.inivos.enums.PlatformType.WEB;
  */
 public class DriverManager {
 
-    private DriverManager() {}
+    private DriverManager(){}
 
     private static final ThreadLocal<WebDriver> WEB_DRIVER_THREAD_LOCAL = new ThreadLocal<>();
     private static final ThreadLocal<WebDriver> MOBILE_DRIVER_THREAD_LOCAL = new ThreadLocal<>();
-    /* testing platform (WEB or MOB) and defaulted with WEB */
-    private static final ThreadLocal<PlatformType> CONTEXT = ThreadLocal.withInitial(()-> WEB);
+    private static final ThreadLocal<PlatformType> CONTEXT = withInitial(()-> WEB);
     private static final Map<PlatformType,ThreadLocal<WebDriver>> DRIVER_MAP = new EnumMap<>(PlatformType.class);
 
+    public static WebDriver getDriver(){
+        return CONTEXT.get() == WEB
+                ? WEB_DRIVER_THREAD_LOCAL.get()
+                : MOBILE_DRIVER_THREAD_LOCAL.get();
+    }
 
-    public static void setDriver(WebDriver driver) {
-        if(isMobileDriver(driver)) {
+    public static void setDriver(WebDriver driver){
+        if(isMobileDriver(driver)){
             MOBILE_DRIVER_THREAD_LOCAL.set(driver);
-            DRIVER_MAP.put(MOBILE, MOBILE_DRIVER_THREAD_LOCAL);
+            DRIVER_MAP.put(MOBILE,MOBILE_DRIVER_THREAD_LOCAL);
             CONTEXT.set(MOBILE);
-        }else {
+        } else {
             WEB_DRIVER_THREAD_LOCAL.set(driver);
-            DRIVER_MAP.put(WEB, WEB_DRIVER_THREAD_LOCAL);
+            DRIVER_MAP.put(WEB,WEB_DRIVER_THREAD_LOCAL);
             CONTEXT.set(WEB);
         }
     }
 
-    public static WebDriver getDriver() {
-        return (CONTEXT.get() == WEB)?  WEB_DRIVER_THREAD_LOCAL.get() : MOBILE_DRIVER_THREAD_LOCAL.get();
+    private static boolean isMobileDriver(WebDriver driver) {
+        return driver instanceof AndroidDriver || driver instanceof IOSDriver;
     }
 
-    private static boolean isMobileDriver(WebDriver driver){
-        return (driver instanceof AndroidDriver || driver instanceof IOSDriver);
-    }
-
-    public static void unload() {
+    public static void unload(){
         WEB_DRIVER_THREAD_LOCAL.remove();
         MOBILE_DRIVER_THREAD_LOCAL.remove();
         CONTEXT.remove();

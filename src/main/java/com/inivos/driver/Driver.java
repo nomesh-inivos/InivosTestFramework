@@ -7,6 +7,7 @@ import com.inivos.driver.factory.DriverFactory;
 import com.inivos.enums.MobilePlatformType;
 import com.inivos.exceptions.DriverAgentNotFoundException;
 import org.openqa.selenium.WebDriver;
+import com.inivos.driver.DriverManager;
 
 import java.net.MalformedURLException;
 import java.util.Objects;
@@ -32,6 +33,8 @@ public final class Driver {
                     .getDriver(driverData);
 
             DriverManager.setDriver(driver);
+            loadUrl();
+
         }
     }
 
@@ -49,7 +52,10 @@ public final class Driver {
                         .getDriver(driverData);
 
         DriverManager.setDriver(driver);
+    }
 
+    public static void loadUrl() {
+        DriverManager.getDriver().get(ConfigurationFactory.getConfig().webUrl());
     }
 
     /**

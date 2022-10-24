@@ -11,13 +11,20 @@ import java.net.URL;
 
 @Config.LoadPolicy(Config.LoadType.MERGE)
 @Config.Sources({
-        "file:${user.dir}/src/test/resources/config.properties"
+        "file:${user.dir}/src/test/resources/config.properties",
+        "file:${user.dir}/src/test/resources/staging-config.properties"
 })
 
 //"system:properties",
 // "System:env",
 
 public interface FrameworkConfig extends Config {
+
+    @DefaultValue("staging")
+    String environment();
+
+    @Key("${environment}.webUrl")
+    String webUrl();
 
     @DefaultValue("CHROME")
     @ConverterClass(StringToBrowserTypeConverter.class)
