@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d50cd199-afa4-4c9d-b028-6c8ec48f261d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/resources/staging-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/config/FrameworkConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/config/FrameworkConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/GoogleTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/GoogleTitleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/SampleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/SampleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,12 +137,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java</url>
-          <line>34</line>
+          <line>33</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java</url>
-          <line>31</line>
+          <line>30</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

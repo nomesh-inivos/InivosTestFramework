@@ -7,7 +7,6 @@ import com.inivos.driver.factory.DriverFactory;
 import com.inivos.enums.MobilePlatformType;
 import com.inivos.exceptions.DriverAgentNotFoundException;
 import org.openqa.selenium.WebDriver;
-import com.inivos.driver.DriverManager;
 
 import java.net.MalformedURLException;
 import java.util.Objects;
