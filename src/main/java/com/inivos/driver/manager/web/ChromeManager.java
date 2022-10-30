@@ -1,4 +1,4 @@
-package com.inivos.driver.manager.web;
+package com.inivos.driver.manager.impl.web;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.chrome.ChromeDriver;
