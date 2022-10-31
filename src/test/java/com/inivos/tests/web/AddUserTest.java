@@ -11,7 +11,7 @@ import static com.inivos.driver.DriverManager.getDriver;
 
 public class AddUserTest  extends WebBase {
 
-//    @Test
+  //  @Test
 //    public void testAddUsers(){
 //        new LoginPage().loginToApplication("Admin","admin123")
 //                .navigateToAddUsersPage();
@@ -20,12 +20,17 @@ public class AddUserTest  extends WebBase {
 public void testLogin() {
     getDriver().manage().window().maximize();
 
-    new LoginPage().loginToApplication("Admin","admin123");
+    new LoginPage().loginToApplication("Admin","admin123"); //.navigateToAddUsersPage();
 
-//    String expectedUrl = "";
-//    String loadedUrl = "";
-//
-//    Assert.assertEquals(expectedUrl, loadedUrl);
+//    try{
+//        Thread.sleep(5);
+//    }catch(InterruptedException e){
+//        e.getMessage();
+//    }
+    String actualUrl = "https://opensource-demo.orangehrmlive.com/web/index.php/pim/viewEmployeeList";
+    String expectedUrl = getDriver().getCurrentUrl();
+
+    Assert.assertEquals(expectedUrl, actualUrl);
 }
 
     @AfterClass

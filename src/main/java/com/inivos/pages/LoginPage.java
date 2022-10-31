@@ -27,8 +27,11 @@ public class LoginPage {
 
 
     public  HomePage loginToApplication (String userName, String password) {
-        return setUserNameTextBox(userName)
+
+        HomePage homepage = setUserNameTextBox(userName)
                 .setPasswordTextBox(password)
                 .setLoginButton();
+        PageActionsHelper.implicitelyWait();
+        return homepage;
     }
 }
