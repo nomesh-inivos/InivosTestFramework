@@ -1,4 +1,4 @@
-package com.inivos.driver.manager.impl.mobile.remote;
+package com.inivos.driver.manager.mobile.remote;
 
 import com.inivos.config.BrowserStackConfigfactory;
 import io.appium.java_client.remote.MobileCapabilityType;

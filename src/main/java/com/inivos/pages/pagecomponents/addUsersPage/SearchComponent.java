@@ -1,2 +1,5 @@
-package com.inivos.pages.pagecomponents.addUsersPage;public class SearchComponent {
+package com.inivos.pages.pagecomponents.addUsersPage;
+
+public class SearchComponent {
+
 }

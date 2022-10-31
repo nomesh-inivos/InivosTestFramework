@@ -11,6 +11,8 @@ import org.openqa.selenium.WebDriver;
 import java.net.MalformedURLException;
 import java.util.Objects;
 
+import static com.inivos.config.ConfigurationFactory.getConfig;
+
 
 public final class Driver {
 
@@ -22,18 +24,13 @@ public final class Driver {
      * @throws DriverAgentNotFoundException
      */
     public static void initDriverForWeb() throws MalformedURLException, DriverAgentNotFoundException {
-        if(Objects.isNull(DriverManager.getDriver())){
-            WebDriverData driverData = WebDriverData.builder()
-                    .browserType(ConfigurationFactory.getConfig().browser())
-                    .browserRemoteModeType(ConfigurationFactory.getConfig().browserRemoteMode())
-                    .build();
-
-            WebDriver driver = DriverFactory.getDriverForWeb(ConfigurationFactory.getConfig().browserRunMode())
+        if(Objects.isNull(DriverManager.getDriver())) {
+            WebDriverData driverData = new WebDriverData(getConfig().browser(), getConfig().browserRemoteMode());
+            WebDriver driver = DriverFactory
+                    .getDriverForWeb(getConfig().browserRunMode())
                     .getDriver(driverData);
-
             DriverManager.setDriver(driver);
             loadUrl();
-
         }
     }
 
@@ -45,16 +42,16 @@ public final class Driver {
     public static void initDriverForMobile() throws MalformedURLException, DriverAgentNotFoundException {
         MobileDriverData driverData = MobileDriverData.builder()
                 .mobilePlatformType(MobilePlatformType.ANDROID)
-                .mobileRemoteModeType(ConfigurationFactory.getConfig().mobileRemoteMode())
+                .mobileRemoteModeType(getConfig().mobileRemoteMode())
                 .build();
-        WebDriver driver = DriverFactory.getDriverForMobile(ConfigurationFactory.getConfig().mobileRunMode())
+        WebDriver driver = DriverFactory.getDriverForMobile(getConfig().mobileRunMode())
                         .getDriver(driverData);
 
         DriverManager.setDriver(driver);
     }
 
     public static void loadUrl() {
-        DriverManager.getDriver().get(ConfigurationFactory.getConfig().webUrl());
+        DriverManager.getDriver().get(getConfig().webUrl());
     }
 
     /**

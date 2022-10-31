@@ -2,8 +2,8 @@ package com.inivos.driver.factory;
 
 import com.inivos.driver.IMobileDriver;
 import com.inivos.driver.IWebDriver;
-import com.inivos.driver.LocalWebDriverImpl;
-import com.inivos.driver.RemoteWebDriverImpl;
+import com.inivos.driver.impl.web.LocalWebDriverImpl;
+import com.inivos.driver.impl.web.RemoteWebDriverImpl;
 import com.inivos.enums.RunModeType;
 
 import java.util.EnumMap;

@@ -30,9 +30,13 @@ public class DriverManager {
     private static final Map<PlatformType,ThreadLocal<WebDriver>> DRIVER_MAP = new EnumMap<>(PlatformType.class);
 
     public static WebDriver getDriver(){
-        return CONTEXT.get() == WEB
+        System.out.println("Generating the required driver on Context....."+ CONTEXT);
+        WebDriver driver =
+                (CONTEXT.get() == WEB)
                 ? WEB_DRIVER_THREAD_LOCAL.get()
                 : MOBILE_DRIVER_THREAD_LOCAL.get();
+       // System.out.println("Generated Driver....."+ driver);
+        return driver;
     }
 
     public static void setDriver(WebDriver driver){

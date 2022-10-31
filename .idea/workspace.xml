@@ -4,10 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d50cd199-afa4-4c9d-b028-6c8ec48f261d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/LoginPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/util/PageActionsHelper.java" afterDir="false" />
+    <list default="true" id="2b408c2a-2e8b-4126-8b25-1ed1369487a5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/ZeeonTest/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/ZeeonTest/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/WebDriverData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/entity/WebDriverData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/mobile/remote/BrowserStackMobileFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/mobile/remote/BrowserStackMobileFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/impl/mobile/LocalMobileDriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/impl/mobile/LocalMobileDriverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/impl/mobile/RemoteMobileDriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/impl/mobile/RemoteMobileDriverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/impl/web/LocalWebDriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/impl/web/LocalWebDriverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/impl/web/RemoteWebDriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/impl/web/RemoteWebDriverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/mobile/local/AndroidManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/mobile/local/AndroidManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/mobile/local/IosManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/mobile/local/IosManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/mobile/remote/BrowserStackAndroidManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/mobile/remote/BrowserStackAndroidManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/mobile/remote/BrowserStackIOSManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/mobile/remote/BrowserStackIOSManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/BrowserStackChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/BrowserStackChromeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/BrowserStackFirefoxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/BrowserStackFirefoxManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/ChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/ChromeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/FireFoxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/FireFoxManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/SeleniumGridChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/SeleniumGridChromeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/SeleniumGridFirefoxManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/SeleniumGridFirefoxManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/SelenoidGridChromeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/driver/manager/web/SelenoidGridChromeManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/pages/AddUsersPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/AddUsersPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/pages/enums/topmenucomponent/MenuType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/enums/topmenucomponent/MenuType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/pages/enums/topmenucomponent/SubMenuType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/enums/topmenucomponent/SubMenuType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/pages/pagecomponents/addUsersPage/AddUserComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/pagecomponents/addUsersPage/AddUserComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/pages/pagecomponents/addUsersPage/SearchComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/pagecomponents/addUsersPage/SearchComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/pages/pagecomponents/homepage/TopMenuComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/pages/pagecomponents/homepage/TopMenuComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/inivos/util/PageActionsHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/inivos/util/PageActionsHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/DemoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/AddUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/AddUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/GoogleTitleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/GoogleTitleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/base/WebBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/inivos/tests/web/base/WebBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/staging-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/staging-config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +52,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -41,7 +77,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2GY81Q6wqaLqsHxANTheytQuN50" />
+  <component name="ProjectId" id="2GZzfD2vDguAKCSBjIhLiO4KmYH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -50,17 +86,26 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "fileTemplates",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/nomeshd/IdeaProjects/InivosTestFramework/src/main/java/com/inivos/pages/ZeeonTest",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "settings.editor.splitter.proportion": "0.23421589"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/inivos/util/drivers" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.inivos.pages.pagecomponents.addUsersPage" />
+      <recent name="com.inivos.pages.enums" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/inivos/pages/ZeeonTest" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.GoogleTitleTest.testLogin">
-    <configuration name="GoogleTitleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AddUserTest.testLogin">
+    <configuration name="AddUserTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InivosTestFramework" />
       <extension name="coverage">
         <pattern>
@@ -69,13 +114,15 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.inivos.tests.web" />
-      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.GoogleTitleTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.AddUserTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTitleTest.testLogin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserTest.testAddUsers" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InivosTestFramework" />
       <extension name="coverage">
         <pattern>
@@ -84,14 +131,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.inivos.tests.web" />
-      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.GoogleTitleTest" />
-      <option name="METHOD_NAME" value="testLogin" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.AddUserTest" />
+      <option name="METHOD_NAME" value="testAddUsers" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GoogleTitleTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddUserTest.testLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="InivosTestFramework" />
       <extension name="coverage">
         <pattern>
@@ -100,7 +149,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.inivos.tests.web" />
-      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.GoogleTitleTest" />
+      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.AddUserTest" />
       <option name="METHOD_NAME" value="testLogin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -109,22 +158,40 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GoogleTitleTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="InivosTestFramework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.inivos.tests.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.inivos.tests.web" />
+      <option name="MAIN_CLASS_NAME" value="com.inivos.tests.web.GoogleTitleTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.GoogleTitleTest.testLogin" />
-        <item itemvalue="JUnit.GoogleTitleTest.testLogin" />
-        <item itemvalue="JUnit.GoogleTitleTest" />
+        <item itemvalue="TestNG.AddUserTest.testLogin" />
+        <item itemvalue="TestNG.AddUserTest" />
+        <item itemvalue="TestNG.AddUserTest.testAddUsers" />
+        <item itemvalue="TestNG.GoogleTitleTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d50cd199-afa4-4c9d-b028-6c8ec48f261d" name="Changes" comment="" />
-      <created>1666553940776</created>
+      <changelist id="2b408c2a-2e8b-4126-8b25-1ed1369487a5" name="Changes" comment="" />
+      <created>1666610994749</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666553940776</updated>
+      <updated>1666610994749</updated>
     </task>
     <servers />
   </component>
@@ -144,31 +211,58 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="2" />
+          <line>31</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/Driver.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/src/test/java/com/inivos/tests/web/base/WebBase.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="8" />
+          <line>47</line>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/impl/web/LocalWebDriverImpl.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/inivos/driver/factory/web/local/LocalDriverFactory.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <configuration name="JUnit">
-        <watch expression="DriverManager" />
-      </configuration>
       <configuration name="TestNG">
-        <watch expression="DriverManager" />
-        <watch expression="driverData" />
+        <watch expression="getDriver()" />
         <watch expression="driver" />
-        <watch expression="ConfigurationFactory.getConfig().browserRunMode()" />
+        <watch expression="var2" />
       </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" line="36">
+        <watch expression="MOBILE_DRIVER_THREAD_LOCAL.get();" />
+      </inline-watch>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" line="34">
+        <watch expression="CONTEXT.get() == WEB" />
+      </inline-watch>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/main/java/com/inivos/driver/DriverManager.java" line="35">
+        <watch expression="WEB_DRIVER_THREAD_LOCAL.get()" />
+      </inline-watch>
+      <inline-watch fileUrl="jar:///Library/Java/JavaVirtualMachines/temurin-11.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/ThreadLocal.java" line="163">
+        <watch expression="map" />
+      </inline-watch>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/InivosTestFramework$AddUserTest_testAddUsers.ic" NAME="AddUserTest.testAddUsers Coverage Results" MODIFIED="1666869683730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.inivos.tests.web.*</FILTER>
+    </SUITE>
   </component>
 </project>

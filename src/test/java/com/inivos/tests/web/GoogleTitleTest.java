@@ -1,7 +1,6 @@
 package com.inivos.tests.web;
 
 import com.inivos.config.ConfigurationFactory;
-import com.inivos.driver.DriverManager;
 import com.inivos.tests.web.base.WebBase;
 import org.testng.annotations.Test;
 

@@ -1,5 +1,6 @@
-package com.inivos.driver;
+package com.inivos.driver.impl.mobile;
 
+import com.inivos.driver.IMobileDriver;
 import com.inivos.driver.entity.MobileDriverData;
 import com.inivos.driver.factory.mobile.local.LocalMobileDriverFactory;
 import com.inivos.exceptions.DriverAgentNotFoundException;
@@ -7,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.net.MalformedURLException;
 
-public class LocalMobileDriverImpl implements IMobileDriver{
+public class LocalMobileDriverImpl implements IMobileDriver {
 
     /**
      * @param driverData

@@ -9,12 +9,12 @@ import java.net.MalformedURLException;
 
 public class WebBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void setUp() throws MalformedURLException, DriverAgentNotFoundException {
         Driver.initDriverForWeb();
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void tearDown(){
         Driver.quitDriver();
     }

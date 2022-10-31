@@ -1,5 +1,6 @@
-package com.inivos.driver;
+package com.inivos.driver.impl.web;
 
+import com.inivos.driver.IWebDriver;
 import com.inivos.driver.entity.WebDriverData;
 import com.inivos.driver.factory.web.remote.RemoteDriverFactory;
 import com.inivos.exceptions.DriverAgentNotFoundException;
@@ -7,7 +8,7 @@ import org.openqa.selenium.WebDriver;
 
 import java.net.MalformedURLException;
 
-public class RemoteWebDriverImpl implements IWebDriver{
+public class RemoteWebDriverImpl implements IWebDriver {
     /**
      * @param driverData
      * @return

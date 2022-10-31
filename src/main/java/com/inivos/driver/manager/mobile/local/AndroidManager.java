@@ -1,4 +1,4 @@
-package com.inivos.driver.manager.impl.mobile.local;
+package com.inivos.driver.manager.mobile.local;
 
 import com.inivos.config.AndroidConfigFactory;
 import io.appium.java_client.remote.MobileCapabilityType;

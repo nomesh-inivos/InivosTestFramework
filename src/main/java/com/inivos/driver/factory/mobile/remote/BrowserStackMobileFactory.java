@@ -2,9 +2,6 @@ package com.inivos.driver.factory.mobile.remote;
 
 import com.inivos.driver.manager.mobile.remote.BrowserStackAndroidManager;
 import com.inivos.driver.manager.mobile.remote.BrowserStackIOSManager;
-import com.inivos.driver.manager.web.BrowserStackChromeManager;
-import com.inivos.driver.manager.web.BrowserStackFirefoxManager;
-import com.inivos.enums.BrowserType;
 import com.inivos.enums.MobilePlatformType;
 import org.openqa.selenium.WebDriver;
 

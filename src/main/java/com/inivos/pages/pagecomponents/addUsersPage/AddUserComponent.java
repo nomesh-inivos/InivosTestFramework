@@ -1,2 +1,4 @@
-package com.inivos.pages.pagecomponents.addUsersPage;public class AddUserComponent {
+package com.inivos.pages.pagecomponents.addUsersPage;
+
+public class AddUserComponent {
 }

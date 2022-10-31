@@ -1,7 +1,20 @@
-package com.inivos.pages.enums;
+package com.inivos.pages.enums.topmenucomponent;
+
+import org.assertj.core.util.diff.myers.Snake;
 
 public enum SubMenuType {
 
-    USER,
-    USER_MANAGEMENT
+    USERS ("Users"),
+    USER_MANAGEMENT("User Management");
+
+    private final String name;
+
+    public String getName() {
+        return name;
+    }
+
+    SubMenuType (String name){
+        this.name = name;
+    }
+
 }

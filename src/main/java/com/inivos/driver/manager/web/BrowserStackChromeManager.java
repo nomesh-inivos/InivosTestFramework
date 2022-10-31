@@ -1,4 +1,4 @@
-package com.inivos.driver.manager.impl.web;
+package com.inivos.driver.manager.web;
 
 import com.inivos.config.BrowserStackConfigfactory;
 import org.openqa.selenium.WebDriver;

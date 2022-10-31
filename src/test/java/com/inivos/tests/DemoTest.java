@@ -8,7 +8,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.Assert;
-import org.testng.annotations.Test;
+import org.testng.annotations.AfterMethod;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -81,7 +81,7 @@ public class DemoTest extends WebBase {
     }
 
     @AfterEach
-    public void tearDown() {
+    public @AfterMethod(alwaysRun = true) void tearDown() {
         driver.quit();
     }
 }
